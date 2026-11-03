@@ -1,0 +1,25 @@
+# environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# secrets and private data
+.env
+*.pem
+data/private/
+data/raw/*_private*.csv
+
+# regenerated files (the repo ships the public dataset in data/raw/)
+data/processed/*.csv
+*.tmp
