@@ -1,0 +1,44 @@
+{
+  "overall": {
+    "total_customers": 7043,
+    "churned": 1869,
+    "retained": 5174,
+    "churn_rate": 0.2653698707936959,
+    "avg_monthly_charges": 64.76169246059918,
+    "avg_tenure": 32.37114865824223
+  },
+  "insights": [
+    "1,869 of 7,043 customers (26.5%) churned in this dataset.",
+    "Contract type: churn is highest for 'Month-to-month' (42.7%) and lowest for 'Two year' (2.8%).",
+    "Tenure: churn is highest for '0-12 months' (47.4%) and lowest for '49+ months' (9.5%).",
+    "Internet service: churn is highest for 'Fiber optic' (41.9%) and lowest for 'No' (7.4%).",
+    "Payment method: churn is highest for 'Electronic check' (45.3%) and lowest for 'Credit card (automatic)' (15.2%).",
+    "Churned customers paid 74.44 per month on average versus 61.27 for retained customers."
+  ],
+  "churn_rate_by_contract": [
+    {
+      "Contract": "Month-to-month",
+      "customers": 3875,
+      "churned": 1655,
+      "churn_rate": 0.4271,
+      "avg_tenure": 18.0366,
+      "avg_monthly_charges": 66.3985
+    },
+    {
+      "Contract": "One year",
+      "customers": 1473,
+      "churned": 166,
+      "churn_rate": 0.1127,
+      "avg_tenure": 42.0448,
+      "avg_monthly_charges": 65.0486
+    },
+    {
+      "Contract": "Two year",
+      "customers": 1695,
+      "churned": 48,
+      "churn_rate": 0.0283,
+      "avg_tenure": 56.7351,
+      "avg_monthly_charges": 60.7704
+    }
+  ]
+}
